@@ -1,0 +1,4 @@
+name: helm
+source: confighub/cub-helm
+commands: [helm]
+prompt: false

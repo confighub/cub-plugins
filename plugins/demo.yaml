@@ -1,0 +1,4 @@
+name: demo
+source: confighub/cub-demo
+commands: [demo]
+prompt: false

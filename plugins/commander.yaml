@@ -1,0 +1,4 @@
+name: commander
+source: confighub/cub-commander
+commands: [commander, cmdr]
+prompt: false

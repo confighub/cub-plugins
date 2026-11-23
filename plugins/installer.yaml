@@ -1,0 +1,4 @@
+name: installer
+source: confighub/installer
+commands: [installer]
+prompt: false

@@ -1,0 +1,4 @@
+name: eks-inference
+source: confighub/eks-inference
+commands: [eksinf]
+prompt: false
