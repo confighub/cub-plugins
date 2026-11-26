@@ -2,7 +2,15 @@
 
 The index of known plugins for `cub`, the ConfigHub CLI.
 
-A known plugin is one `cub` can install by name, and by the commands it provides: typing a command that a known plugin provides installs the plugin and runs the command. Support for this in `cub` is in progress; until it is released, install a plugin with `cub plugin install <source>`.
+A known plugin is one `cub` can install by name, and by the commands it provides: typing a command that a known plugin provides installs the plugin and runs the command. This needs cub v0.11.18 or newer.
+
+```sh
+cub plugin list --all        # installed plugins, and known ones that are not
+cub installer --help         # installs the installer plugin, then runs it
+cub plugin install helm      # or install one by name
+```
+
+`cub` reads this repository at most once a day, so a change here reaches every `cub` within a day. Set `CUB_PLUGIN_AUTO_INSTALL` to `never` to be told the install command instead, `ask` to be asked first, or `auto` to never be asked.
 
 ## Entries
 
